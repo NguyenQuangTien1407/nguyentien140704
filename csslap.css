@@ -1,0 +1,138 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: opx;
+}
+
+.banner {
+    border: 1px rgb(red, green, blue) groove; 
+    text-align: center;
+    background-color: green;
+    padding: 40px 40px 20px 60px;
+}
+
+.name_banner{
+    font-size: 50px;
+    color:yellow;
+    font-weight: bold;
+    width: 98%;
+}
+
+.h1{
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 7px;
+    border: 1px dashed rgb(15,15,16);
+    width: 750px;
+    height: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.rood>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+.root>li a{
+    text-decoration: none;
+    color: rgb(34, 232, 232);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display:inline-block;
+}
+.menu-web{
+    width: 100%;
+    height: 50px;
+    background-color: #dbba35;
+    margin: 0px auto;
+}
+
+.root {
+    display: inline-block;
+    display: flex;
+    list-style: none;
+}
+
+.root>li>a:hover{
+    background-color: yellowgreen;
+    transform: ease-in 0.35s;
+}
+.submenu{
+    width: 250px;
+    background-color: #dbba35;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+    
+}
+.submenu li{
+    list-style: none;
+}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover .submenu{
+    display: block;
+    background-color: yellowgreen;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
+.submenu>li>a:hover{
+    background-color: #dbba35;
+    color: white;
+    transform: ease-in 0.35s;
+}
+.submenu>li>a:hover{
+    background-color: #dbba35;
+    color: white;
+    transform: ease-in 0.35s;
+}
+.bocuc{
+    border: 1px solid #ccc;
+    width: 97%;
+    margin: 0px auto;
+}
+.h11 td{
+    border: 1px solid #ccc;
+}
+.sp1 img{
+    width: 70px;
+    height: 60px;
+    align-items: center;
+}
+.giacu{
+    color: red;
+    font-size: 18px;
+}
+.giaban{
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sp1{
+    text-align: center;
+}
+.giacu:hover{
+    font-size: 25px;
+    position: absolute;
+    transform: ease-in 0.35s;
+}
+.sp1 img:hover{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+}
